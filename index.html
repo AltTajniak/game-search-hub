@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Game Store Search</title>
+</head>
+<body>
+  <script src="script.js"></script>
+  <h2>Game Search Hub</h2>
+  <input type="text" id="keyword" placeholder="Type game name...">
+
+  <div class="button-container">
+    <button class="store-button" onclick="openLink('https://www.eneba.com/store?text=', 'https://www.eneba.com/')">
+      <img src="photos/eneba.svg" alt="Eneba">
+    </button>
+    <button class="store-button" onclick="openLink('https://www.instant-gaming.com/pl/search/?q=', 'https://www.instant-gaming.com/')">
+      <img src="photos/instantgaming.svg" alt="instantgaming">
+    </button>
+</button>
+    <button class="store-button" onclick="openLink('https://www.g2a.com/pl/search?query=', 'https://www.g2a.com/')">
+      <img src="photos/g2a.svg" alt="g2a">
+    </button>
+<button class="store-button" onclick="openLink('https://www.loaded.com/#q=', 'https://www.loaded.com')">
+      <img src="photos/loaded.svg" alt="loaded">
+    </button>
+<button class="store-button" onclick="openLink('https://www.kinguin.net/pl/listing?phrase=', 'https://www.kinguin.net')">
+      <img src="photos/kinguin.svg" alt="kinguin">
+    </button>
+<button class="store-button" onclick="openLink('https://www.fanatical.com/search?search=', 'https://www.fanatical.com')">
+      <img src="photos/fanatical.svg" alt="fanatical">
+    </button>
+<button class="store-button" onclick="openLink('https://www.greenmangaming.com/search?query=', 'https://www.greenmangaming.com')">
+      <img src="photos/greenmangameing.svg" alt="reenmangameing">
+    </button>
+    <button class="store-button" onclick="openLink('https://www.humblebundle.com/store/search?search=', 'https://www.humblebundle.com')">
+      <img src="photos/humblebundle.svg" alt="humblebundle">
+    </button>
+<button class="store-button" onclick="openLink('https://store.steampowered.com/search/?term=', 'https://store.steampowered.com')">
+      <img src="photos/steam.svg" alt="steam">
+    </button>
+<button class="store-button" onclick="openLink('https://www.gog.com/pl/games?query=', 'https://www.gog.com/')">
+      <img src="photos/gog.svg" alt="gog">
+    </button>
+  </div>
+
+<button id="lightModeBtn" class="lightmode" type="button" aria-label="Light Mode" onclick="lightModeClicked()">
+  Light Mode
+</button>
+<div class="footer">
+  <p>This is an unofficial game search hub. All logos and links belong to their respective owners</p>
+</div>
+</body>
+</html>

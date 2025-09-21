@@ -1,0 +1,77 @@
+body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background: #1e1e2f;
+      color: white;
+    }
+    input {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: none;
+    }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    .store-button {
+      width: 240px;
+      height: 120px;
+      padding: 0;
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #2a2a40;
+      cursor: pointer;
+      transition: transform 0.1s, background 0.2s;
+    }
+    .store-button:hover {
+      transform: scale(1.05);
+      background: #3a3a55;
+    }
+    .store-button img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .lightmode {
+       z-index: 2;
+      position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #ffcc00;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: transform 0.1s, background 0.2s;
+    }
+    .footer {
+      z-index: 1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2A2A3B;
+  color: white;
+  text-align: center;
+}
+#brightOverlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: #fff;
+  opacity: 0;
+  transition: opacity .25s ease;
+  z-index: 20000;
+}
