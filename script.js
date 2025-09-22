@@ -43,7 +43,6 @@ function lightModeClicked() {
 }
 
 function activateExtremeBrightness() {
-  // create overlay if it doesn't exist
   let overlay = document.getElementById('brightOverlay');
   if (!overlay) {
     overlay = document.createElement('div');

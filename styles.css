@@ -78,6 +78,15 @@ body {
   transition: opacity .25s ease;
   z-index: 20000;
 }
+.github{
+  background: none;
+  position: fixed;
+  bottom: 60px;
+  left: 10px;
+}
+.github img{
+    height: 50px;
+  }
 
 @media (max-width: 768px) {
 .title{
@@ -88,6 +97,9 @@ body {
    height: 80px;
 }
 .lightmode {
+  bottom: 80px;
+}
+.github {
   bottom: 80px;
 }
 }
